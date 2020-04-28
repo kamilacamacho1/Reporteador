@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Reporteador.Vistas.RegistroVenta">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Registro de Venta: "/>
+            <Entry Placeholder="Escribe el número e ventas" Keyboard="Numeric" x:Name="ValorVenta"/>
+            <Button Text="Agregar venta" Clicked="btn_agregarVenta" BackgroundColor="Azure"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
